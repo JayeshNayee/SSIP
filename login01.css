@@ -1,0 +1,49 @@
+.contentbx{
+    font-weight: bold;
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.formbox h2{
+    color: red;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 4px solid black;
+
+}
+.inputbox{
+    margin-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.contentbx .formbox .inputbox input{
+    width: 100%;
+    height: 100%;
+    border: 2.5px solid black;
+}
+.remember{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+ :hover.inputbox #btn{
+    background-color: white;
+}
+.inputbox #btn{
+    width: 100%;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20x;
+    border-radius: 10px;
+   background-color: red;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+.inputbox a{
+    text-decoration: none;
+    color: red;
+}
+

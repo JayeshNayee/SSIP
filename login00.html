@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Welfare Schemes</title>
+</head>
+<style>
+    #h1 {
+        color: red;
+        text-decoration: underline;
+    }
+    .contentbx #select option {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .contentbx #select {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .contentbx {
+        height: 100%;
+        justify-content: end;
+        display: grid;
+        align-content: space-around;
+        align-items: baseline;
+        padding-right: 125px;
+        padding-top: 110px;
+    }
+
+    .contentbx .inputbox input {
+        width: 100%;
+        height: 100%;
+        border: 2.5px solid black;
+    }
+
+    /* }
+ :hover #sumbitbtn{
+    background-color: white;
+ } */
+
+
+    .inputbox {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    #sumbitbtn {
+        width: 100%;
+        height: 30px;
+        font-weight: 1000;
+        font-size: 20x;
+        border-radius: 10px;
+        background: red;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    section{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .imgbox{
+        width: 50%;
+        height: 100%;
+        position: relative;
+    }
+
+     section .imgbox ::before {
+        content: '';
+        background:linear-gradient(225deg, red);
+        position:absolute;
+
+    } 
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+</style>
+<body>
+    <section>
+        <!-- <div class="imgbox">
+        <img src="women.jpeg">
+        </div> -->
+    <form action="">
+            <div class="contentbx">
+                <h1 id="h1">Registrations</h1>
+                <p id="select">
+                    Relationship with these Schemes
+                    <select name=" Relationship with these Schemes" id="">
+                        <option value="Goverment - person">Goverment - officer</option>
+                        <option value="Women(Miss)">Women</option>
+                        <option value="Girl">Girl</option>
+                    </select>
+                </p>
+
+                <div class="inputbox">
+                    <span>Applicant's Name *:</span>
+                    <input type="text" name="" placeholder="Enter your name" required>
+                </div>
+                <div class="inputbox">
+                    <span>Applicant's Father / Husband Name *:</span>
+                    <input type="text" name="" placeholder="Enter father's name" required>
+                </div>
+                <div class="inputbox"><span>Mobile number *:</span>
+                    <input type="text" name="" placeholder="Mobile Number:+91 769xxx26" required>
+                </div>
+                <div class="inputbox">
+                    <span>E-mail id : </span>
+                    <input type="email" name="" placeholder="E-mail id : ">
+                </div>
+                <div class="inputbox">
+                    <span>Aadhaar card number *: </span>
+                    <input type="number" name="" placeholder="111122223333" required>
+                </div>
+                <div class="inputbox">
+                    <span>Re-enter Aadhaar number *: </span>
+                    <input type="number" name="" placeholder="111122223333" required>
+                </div>
+
+                <div class="inputbox">
+                    <span>Create Password *: </span>
+                    <input type="password" name="password" placeholder="J@yesh02" required>
+                </div>
+
+                <div class="inputbox">
+                    <span>Conform Password *:</span>
+                    <input type="password" name="password" placeholder="J@yesh02" required>
+                </div>
+
+                <div class="inputbox">
+                    <span>Enter OTP *: </span>
+                    <input type="number" name="" required>
+                </div>
+                <input type="submit" value="submit" id="sumbitbtn">
+            </div>
+        </form> 
+    </section>
+</body>
+
+</html>
